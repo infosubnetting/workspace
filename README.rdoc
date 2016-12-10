@@ -1,0 +1,9 @@
+1) Create a new Rails application and call it alfa-blog
+
+2) Ensure you can run the server and preview the application
+
+3) Create a Pages Controller
+
+4) Ensure you have appropriate routes
+
+5) 
