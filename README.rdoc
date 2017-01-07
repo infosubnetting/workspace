@@ -1,3 +1,13 @@
+Validation for User class:
+1) username must be predent and unique
+
+2) email must be predent and unique
+
+3) validate email format using regexpwd
+
+
+-----------------------------------------------------------------
+-----------------------------------------------------------------
 1) Create a new Rails application and call it alfa-blog
 
 2) Ensure you can run the server and preview the application
@@ -7,3 +17,4 @@
 4) Ensure you have appropriate routes
 
 5) This is the repository for the first alpha-blog app of the complete Ruby on Rails Developer Course
+
