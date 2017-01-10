@@ -10320,3 +10320,162 @@ Completed 200 OK in 2280ms (Views: 2278.4ms | ActiveRecord: 0.6ms)
 
 Started GET "/assets/custom.self-14227ea2a368b77a779734b4a67678f9466cbb03a1565c5dac0750bb08a4847c.css?body=1" for 151.15.76.185 at 2017-01-10 18:32:50 +0000
 Cannot render console from 151.15.76.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/articles" for 151.15.76.185 at 2017-01-10 18:41:00 +0000
+Cannot render console from 151.15.76.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendered articles/index.html.erb within layouts/application (6.3ms)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/home/ubuntu/workspace/app/views/articles/index.html.erb:15: syntax error, unexpected '!', expecting keyword_then or ';' or '\n'
+...fer.append=( if (article.user)! 
+...                               ^
+/home/ubuntu/workspace/app/views/articles/index.html.erb:17: syntax error, unexpected keyword_else, expecting ')'):
+  app/views/articles/index.html.erb:15: syntax error, unexpected '!', expecting keyword_then or ';' or '\n'
+  app/views/articles/index.html.erb:17: syntax error, unexpected keyword_else, expecting ')'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (42.3ms)
+
+
+Started GET "/articles" for 151.15.76.185 at 2017-01-10 18:41:50 +0000
+Cannot render console from 151.15.76.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendered articles/index.html.erb within layouts/application (5.2ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/home/ubuntu/workspace/app/views/articles/index.html.erb:19: syntax error, unexpected ')', expecting keyword_end
+                );@output_buffer.safe_append=',
+                 ^
+/home/ubuntu/workspace/app/views/articles/index.html.erb:37: syntax error, unexpected keyword_ensure, expecting ')'
+/home/ubuntu/workspace/app/views/articles/index.html.erb:39: syntax error, unexpected keyword_end, expecting ')'):
+  app/views/articles/index.html.erb:19: syntax error, unexpected ')', expecting keyword_end
+  app/views/articles/index.html.erb:37: syntax error, unexpected keyword_ensure, expecting ')'
+  app/views/articles/index.html.erb:39: syntax error, unexpected keyword_end, expecting ')'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (21.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (67.8ms)
+
+
+Started GET "/articles" for 151.15.76.185 at 2017-01-10 18:42:16 +0000
+Cannot render console from 151.15.76.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendered articles/index.html.erb within layouts/application (4.6ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/home/ubuntu/workspace/app/views/articles/index.html.erb:19: syntax error, unexpected ')', expecting keyword_end
+                );@output_buffer.safe_append=',
+                 ^
+/home/ubuntu/workspace/app/views/articles/index.html.erb:37: syntax error, unexpected keyword_ensure, expecting ')'
+/home/ubuntu/workspace/app/views/articles/index.html.erb:39: syntax error, unexpected keyword_end, expecting ')'):
+  app/views/articles/index.html.erb:19: syntax error, unexpected ')', expecting keyword_end
+  app/views/articles/index.html.erb:37: syntax error, unexpected keyword_ensure, expecting ')'
+  app/views/articles/index.html.erb:39: syntax error, unexpected keyword_end, expecting ')'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (43.8ms)
+
+
+Started GET "/articles" for 151.15.76.185 at 2017-01-10 18:42:51 +0000
+Cannot render console from 151.15.76.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendered articles/index.html.erb within layouts/application (4.4ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/home/ubuntu/workspace/app/views/articles/index.html.erb:19: syntax error, unexpected ')', expecting keyword_end
+                );@output_buffer.safe_append=',
+                 ^
+/home/ubuntu/workspace/app/views/articles/index.html.erb:37: syntax error, unexpected keyword_ensure, expecting ')'
+/home/ubuntu/workspace/app/views/articles/index.html.erb:39: syntax error, unexpected keyword_end, expecting ')'):
+  app/views/articles/index.html.erb:19: syntax error, unexpected ')', expecting keyword_end
+  app/views/articles/index.html.erb:37: syntax error, unexpected keyword_ensure, expecting ')'
+  app/views/articles/index.html.erb:39: syntax error, unexpected keyword_end, expecting ')'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (47.0ms)
+
+
+Started GET "/articles" for 151.15.76.185 at 2017-01-10 18:43:13 +0000
+Cannot render console from 151.15.76.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendered articles/index.html.erb within layouts/application (4.9ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/home/ubuntu/workspace/app/views/articles/index.html.erb:18: syntax error, unexpected ')', expecting keyword_end
+...               puts "IUUUUUU" );@output_buffer.safe_append=',
+...                               ^
+/home/ubuntu/workspace/app/views/articles/index.html.erb:36: syntax error, unexpected keyword_ensure, expecting ')'
+/home/ubuntu/workspace/app/views/articles/index.html.erb:38: syntax error, unexpected keyword_end, expecting ')'):
+  app/views/articles/index.html.erb:18: syntax error, unexpected ')', expecting keyword_end
+  app/views/articles/index.html.erb:36: syntax error, unexpected keyword_ensure, expecting ')'
+  app/views/articles/index.html.erb:38: syntax error, unexpected keyword_end, expecting ')'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (21.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (10.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (74.6ms)
+
+
+Started GET "/articles" for 151.15.76.185 at 2017-01-10 18:46:14 +0000
+Cannot render console from 151.15.76.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  Rendered articles/index.html.erb within layouts/application (4.4ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/home/ubuntu/workspace/app/views/articles/index.html.erb:19: syntax error, unexpected ')', expecting keyword_end
+                                   );@output_buffer.safe_append=',
+                                    ^
+/home/ubuntu/workspace/app/views/articles/index.html.erb:37: syntax error, unexpected keyword_ensure, expecting ')'
+/home/ubuntu/workspace/app/views/articles/index.html.erb:39: syntax error, unexpected keyword_end, expecting ')'):
+  app/views/articles/index.html.erb:19: syntax error, unexpected ')', expecting keyword_end
+  app/views/articles/index.html.erb:37: syntax error, unexpected keyword_ensure, expecting ')'
+  app/views/articles/index.html.erb:39: syntax error, unexpected keyword_end, expecting ')'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (33.9ms)
+
+
+Started GET "/articles" for 151.15.76.185 at 2017-01-10 18:46:58 +0000
+Cannot render console from 151.15.76.185! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.4ms)[0m  SELECT "articles".* FROM "articles"
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered articles/index.html.erb within layouts/application (17.1ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 83ms (Views: 81.4ms | ActiveRecord: 0.6ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddPasswordDigestToUsers (20170110190414)
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36m (0.6ms)[0m  [1mALTER TABLE "users" ADD "password_digest" varchar[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20170110190414"]]
+  [1m[36m (12.5ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mUser Load (2.2ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" DESC LIMIT 1
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT  1 AS one FROM "users" WHERE (LOWER("users"."username") = LOWER('Fulvio') AND "users"."id" != 6) LIMIT 1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE (LOWER("users"."email") = LOWER('fulvio.mariola@gmail.com') AND "users"."id" != 6) LIMIT 1[0m
+  [1m[35mSQL (0.5ms)[0m  UPDATE "users" SET "password_digest" = ?, "updated_at" = ? WHERE "users"."id" = ?  [["password_digest", "$2a$10$rZ9C6xaLH4FA0mu79fgYuOaXDQhtbu.rwW48ZCjEnuyGeQnQPXyJW"], ["updated_at", "2017-01-10 19:10:27.647333"], ["id", 6]]
+  [1m[36m (12.8ms)[0m  [1mcommit transaction[0m
+  [1m[35mUser Load (0.9ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" DESC LIMIT 1
