@@ -17809,3 +17809,121 @@ Processing by PagesController#home as HTML
   Rendered layouts/_messages.html.erb (0.1ms)
   Rendered layouts/_footer.html.erb (0.1ms)
 Completed 200 OK in 67ms (Views: 66.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles" for 151.15.112.163 at 2017-01-31 16:52:38 +0000
+Cannot render console from 151.15.112.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ArticlesController#index as HTML
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "articles"
+  [1m[36mArticle Load (0.3ms)[0m  [1mSELECT  "articles".* FROM "articles" LIMIT 5 OFFSET 0[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 9]]
+  Rendered articles/_article.html.erb (118.7ms)
+  Rendered articles/index.html.erb within layouts/application (126.8ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 201ms (Views: 193.7ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/users" for 151.15.112.163 at 2017-01-31 16:52:41 +0000
+Cannot render console from 151.15.112.163! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#index as HTML
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "users"[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" LIMIT 5 OFFSET 0
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "articles" WHERE "articles"."user_id" = ?[0m  [["user_id", 2]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "articles" WHERE "articles"."user_id" = ?  [["user_id", 3]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "articles" WHERE "articles"."user_id" = ?[0m  [["user_id", 4]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "articles" WHERE "articles"."user_id" = ?  [["user_id", 5]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "articles" WHERE "articles"."user_id" = ?[0m  [["user_id", 6]]
+  Rendered users/index.html.erb within layouts/application (15.9ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 97ms (Views: 94.7ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/users" for 151.15.75.225 at 2017-02-02 19:01:01 +0000
+Cannot render console from 151.15.75.225! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsersController#index as HTML
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "users"
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" LIMIT 5 OFFSET 0[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "articles" WHERE "articles"."user_id" = ?  [["user_id", 2]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "articles" WHERE "articles"."user_id" = ?[0m  [["user_id", 3]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "articles" WHERE "articles"."user_id" = ?  [["user_id", 4]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "articles" WHERE "articles"."user_id" = ?[0m  [["user_id", 5]]
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "articles" WHERE "articles"."user_id" = ?  [["user_id", 6]]
+  Rendered users/index.html.erb within layouts/application (72.7ms)
+  Rendered layouts/_navigation.html.erb (1.9ms)
+  Rendered layouts/_messages.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 685ms (Views: 664.9ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/" for 151.15.75.225 at 2017-02-02 19:01:07 +0000
+Cannot render console from 151.15.75.225! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (21.9ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 138ms (Views: 137.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signup" for 151.15.75.225 at 2017-02-02 19:08:07 +0000
+Cannot render console from 151.15.75.225! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendered shared/_errors.html.erb (3.5ms)
+  Rendered users/_form.html.erb (25.4ms)
+  Rendered users/new.html.erb within layouts/application (28.7ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 121ms (Views: 105.1ms | ActiveRecord: 0.9ms)
+
+
+Started POST "/users" for 151.15.75.225 at 2017-02-02 19:08:33 +0000
+Cannot render console from 151.15.75.225! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"t1r6SIfVGFJsZS5hBu1vSV2dG8Db4MeAv3qlpMZkwPgzFu7J/yux8eYnqWj6Bs7IMwTaQnK+0Hb1TOJZVRym9w==", "user"=>{"username"=>"johndoe", "email"=>"johndoe@example.com", "password"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT  1 AS one FROM "users" WHERE LOWER("users"."username") = LOWER('johndoe') LIMIT 1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('johndoe@example.com') LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("username", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["username", "johndoe"], ["email", "johndoe@example.com"], ["password_digest", "$2a$10$GVyzCzznImTpq/X2r5jkPOFJ.tgptj2cW6nSXxlv6J/97ZihgYCxG"], ["created_at", "2017-02-02 19:08:33.911573"], ["updated_at", "2017-02-02 19:08:33.911573"]]
+  [1m[36m (13.3ms)[0m  [1mcommit transaction[0m
+Redirected to https://completerubyonrailscourse-zingaro.c9users.io/users/11
+Completed 302 Found in 116ms (ActiveRecord: 14.2ms)
+
+
+Started GET "/users/11" for 151.15.75.225 at 2017-02-02 19:08:34 +0000
+Cannot render console from 151.15.75.225! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"11"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 11]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "articles" WHERE "articles"."user_id" = ?[0m  [["user_id", 11]]
+  [1m[35mArticle Load (0.2ms)[0m  SELECT  "articles".* FROM "articles" WHERE "articles"."user_id" = ? LIMIT 5 OFFSET 0  [["user_id", 11]]
+  Rendered articles/_article.html.erb (3.8ms)
+  Rendered users/show.html.erb within layouts/application (7.6ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 11]]
+  Rendered layouts/_navigation.html.erb (2.2ms)
+  Rendered layouts/_messages.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 76ms (Views: 64.1ms | ActiveRecord: 1.1ms)
+
+
+Started DELETE "/logout" for 151.15.75.225 at 2017-02-02 19:09:39 +0000
+Cannot render console from 151.15.75.225! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"SjBNX/tQF3PfhbiKf1/xuGLHeGWRlVN1JFQdRDd1XArOfFneg66+0FXHP4ODtFA5DF655zjLRINuYlq5pA06BQ=="}
+Redirected to https://completerubyonrailscourse-zingaro.c9users.io/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 151.15.75.225 at 2017-02-02 19:09:39 +0000
+Cannot render console from 151.15.75.225! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 57ms (Views: 56.8ms | ActiveRecord: 0.0ms)
